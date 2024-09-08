@@ -62,3 +62,43 @@ if (myInt >= myInt3)
 string result = (myInt == 10) ? $"My int is equal to {myInt}" : $"My int is not equal to {myInt}" ;
 
 Console.WriteLine(result);
+
+/* SWITCH STATEMENT */
+
+Console.WriteLine("Enter your number 0 to 9");
+
+int myNumber = Convert.ToInt32(Console.ReadLine());
+
+switch (myNumber)
+{
+    case 0:
+        Console.WriteLine($"Your Number: {myNumber}");
+        break;
+    case 1:
+        Console.WriteLine($"Your Number: {myNumber}");
+        break;
+    case 2:
+        Console.WriteLine($"Your Number: {myNumber}");
+        break;
+    case 3:
+        Console.WriteLine($"Your Number: {myNumber}");
+        break;
+    case 4:
+        Console.WriteLine($"Your Number: {myNumber}");
+        break;
+    case 5:
+        Console.WriteLine($"Your Number: {myNumber}");
+        break;
+    case 6:
+        Console.WriteLine($"Your Number: {myNumber}");
+        break;
+    case 7:
+        Console.WriteLine($"Your Number: {myNumber}");
+        break;
+    case 8:
+        Console.WriteLine($"Your Number: {myNumber}");
+        break;
+          case 9:
+        Console.WriteLine($"Your Number: {myNumber}");
+        break;
+}
