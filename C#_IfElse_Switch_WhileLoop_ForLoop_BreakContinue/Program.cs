@@ -102,3 +102,24 @@ switch (myNumber)
         Console.WriteLine($"Your Number: {myNumber}");
         break;
 }
+
+/* WHILE LOOP */
+
+int myInt0 = 0;
+
+while (myInt0 <= 10)
+{
+    Console.WriteLine(myInt0);
+    myInt0++;
+}
+
+// DO WHILE
+
+myInt0 = 0;
+
+do
+{
+    Console.WriteLine(myInt0);
+    myInt0++;
+}
+while (myInt0 <= 10);
