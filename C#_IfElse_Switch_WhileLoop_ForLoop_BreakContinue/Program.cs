@@ -160,3 +160,12 @@ for ( i = 0;i <= 10; i++)
     }
     Console.WriteLine(i);
 }
+
+// FOREACH LOOP 
+
+string[] names = { "Marco", "Giulio", "Luca" };
+
+foreach (string a in names)
+{
+    Console.WriteLine($"Hello {a}");
+}
