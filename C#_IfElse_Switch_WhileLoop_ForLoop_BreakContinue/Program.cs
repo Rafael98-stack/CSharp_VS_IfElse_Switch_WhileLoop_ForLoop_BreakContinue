@@ -123,3 +123,40 @@ do
     myInt0++;
 }
 while (myInt0 <= 10);
+
+/* FOR LOOP / FOREACH LOOP */
+
+/* 
+ 
+for (statement 1; statement 2; statement 3) 
+{
+  // code block to be executed
+} 
+
+*/
+
+int i = 0;
+
+for ( i = 0; i <= 10; i++) 
+{ 
+    Console.WriteLine(i + " Im a i");
+}
+
+// NESTED FOR LOOP / CONTINUE & BREAK
+
+i = 0;
+
+for ( i = 0;i <= 10; i++)
+{
+    for (; i == 5; i++)
+    {
+        Console.WriteLine("Number 5 has been jumped");
+        continue;
+    }
+    if (i == 9)
+    {
+        Console.WriteLine("I break here");
+        break;
+    }
+    Console.WriteLine(i);
+}
